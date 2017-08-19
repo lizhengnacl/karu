@@ -1,6 +1,6 @@
 {
   "name": "karu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "set git user name and email",
   "main": "index.js",
   "bin": "./bin/karu",
