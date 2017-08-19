@@ -1,7 +1,7 @@
 {
   "name": "karu",
   "version": "0.0.3",
-  "description": "set git user name and email",
+  "description": "a reminder to set local git config",
   "main": "index.js",
   "bin": "./bin/karu",
   "scripts": {
