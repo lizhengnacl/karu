@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+let setConfig = require('../index.js');
+
+setConfig();

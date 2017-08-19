@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+let parse = require('../lib/parse.js');
+let helper = require('../lib/helper');
+
+let config = parse();
+
+Object.keys(config).forEach((key) => {
+    if(!helper.isEmpty(config[key])){
+        console.log(`user.${key}=${config[key]}`);
+    }
+});

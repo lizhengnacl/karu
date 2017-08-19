@@ -1,0 +1,20 @@
+{
+  "name": "karu",
+  "version": "0.0.2",
+  "description": "set git user name and email",
+  "main": "index.js",
+  "bin": "./bin/karu",
+  "scripts": {
+    "test": "ava --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^3.2.2"
+  }
+}
