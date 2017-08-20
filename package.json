@@ -1,6 +1,6 @@
 {
   "name": "karu",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a reminder to set local git config",
   "main": "index.js",
   "bin": "./bin/karu",
@@ -14,6 +14,7 @@
     "ava": "^0.22.0"
   },
   "dependencies": {
+    "chalk": "^2.1.0",
     "commander": "^2.11.0",
     "inquirer": "^3.2.2"
   }
