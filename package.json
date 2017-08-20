@@ -1,6 +1,6 @@
 {
   "name": "karu",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "a reminder to set local git config",
   "main": "index.js",
   "bin": "./bin/karu",
